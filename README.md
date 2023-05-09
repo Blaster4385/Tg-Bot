@@ -6,6 +6,7 @@ This is a telegram bot written in JavaScript using the [Telegraf.js](https://tel
 
 - `/start` - Start the bot
 - `/help` - Show help
+- `/neofetch` - Show information about the host system
 
 ## Setting up
 

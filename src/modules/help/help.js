@@ -12,6 +12,7 @@ export default async (ctx) => {
 
 /start : Start the bot
 /help : Show this help message
+/neofetch : Show information about the host system
     `
     ctx.replyWithHTML(helpText)
 }
