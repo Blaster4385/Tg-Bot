@@ -11,6 +11,7 @@ This is a telegram bot written in JavaScript using the [Telegraf.js](https://tel
 - `/arch [package]` - Search for a package on the AUR
 - `/aur [package]` - Get information about an AUR package
 - `/ip [address]` - Get information about an IP address
+- `/gituser [username]` - Get information about a GitHub user
 
 ## Setting up
 

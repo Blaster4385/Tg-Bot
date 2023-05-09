@@ -5,6 +5,7 @@ import meaning from './modules/meaning/meaning.js'
 import arch from './modules/arch/arch.js'
 import aur from './modules/aur/aur.js'
 import ip from './modules/ip/ip.js'
+import gituser from './modules/gituser/gituser.js'
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
@@ -27,5 +28,7 @@ bot.command('arch', arch)
 bot.command('aur', aur)
 
 bot.command('ip', ip)
+
+bot.command('gituser', gituser)
 
 bot.launch()
