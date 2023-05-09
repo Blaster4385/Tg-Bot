@@ -8,6 +8,8 @@ This is a telegram bot written in JavaScript using the [Telegraf.js](https://tel
 - `/help` - Show help
 - `/neofetch` - Show information about the host system
 - `/meaning [word]` - Get the meaning of a word
+- `/arch [package]` - Search for a package on the AUR
+- `/aur [package]` - Get information about an AUR package
 
 ## Setting up
 
