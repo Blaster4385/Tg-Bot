@@ -10,6 +10,7 @@ This is a telegram bot written in JavaScript using the [Telegraf.js](https://tel
 - `/meaning [word]` - Get the meaning of a word
 - `/arch [package]` - Search for a package on the AUR
 - `/aur [package]` - Get information about an AUR package
+- `/ip [address]` - Get information about an IP address
 
 ## Setting up
 
