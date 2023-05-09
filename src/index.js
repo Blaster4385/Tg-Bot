@@ -1,6 +1,7 @@
 import { Telegraf } from 'telegraf'
 import help from './modules/help/help.js'
 import neofetch from './modules/neofetch/neofetch.js'
+import meaning from './modules/meaning/meaning.js'
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
@@ -15,5 +16,7 @@ bot.start((ctx) => ctx.replyWithHTML(welcomeText))
 bot.command('help', help)
 
 bot.command('neofetch', neofetch)
+
+bot.command('meaning', meaning)
 
 bot.launch()
