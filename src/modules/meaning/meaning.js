@@ -24,9 +24,13 @@ const meaning = async (ctx) => {
         }).join('\n')
         ctx.replyWithHTML(`<b>${word}</b>\n\n${meaningsText}`, Markup.inlineKeyboard([
             Markup.button.url('🔍 Search', `https://www.google.com/search?q=${word}`)
-        ]))
+        ])).catch((error) => { ctx.reply('No results found. You can search on google.', Markup.inlineKeyboard([
+            Markup.button.url('🔍 Search', `https://www.google.com/search?q=${word}`)
+        ]))})
     } catch (error) {
-        ctx.reply('No results found.')
+        ctx.reply('No results found. You can search on google.', Markup.inlineKeyboard([
+            Markup.button.url('🔍 Search', `https://www.google.com/search?q=${word}`)
+        ]))
     }
 }
 
